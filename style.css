@@ -1,0 +1,19 @@
+:root {
+	--background-color: #000;
+	--text-color: #fff;
+}
+
+@media (prefer-color-scheme:dark) {
+	:root {
+	--background-color: #fff;
+	--text-color: #fc618d;
+	}
+}
+
+body {
+	background-color: var(--background-color);
+	color: var(--text-color);
+	font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+	font-size: 100%;
+}
+
