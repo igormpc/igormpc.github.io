@@ -1,2 +1,0 @@
-# igormpc.github.io
-site
